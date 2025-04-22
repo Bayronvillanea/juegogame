@@ -16,7 +16,10 @@ const EmocionRevelada = () => {
       questions: [
         "¿Recuerdas ese momento en que pensaste que todo se iba a derrumbar… y aún así seguiste adelante?",
         "¿Cuándo fue la última vez que te abrazaron tan fuerte que sentiste que todo estaba bien?",
-        "¿Qué le dirías hoy al niño que alguna vez fuiste?"
+        "¿Qué le dirías hoy al niño que alguna vez fuiste?",
+        "¿Qué parte de ti has tenido que esconder para sobrevivir en este mundo?",
+        "¿A quién extrañas, pero tu orgullo no deja que lo sepa?",
+        "¿Qué herida llevas tan bien disfrazada que ya hasta tú te crees que no duele?"
       ],
       color: "bg-blue-600 hover:bg-blue-700"
     },
@@ -25,7 +28,10 @@ const EmocionRevelada = () => {
       questions: [
         "¿Y si mañana despertaras con la vida de tus sueños, qué sería lo primero que harías?",
         "¿Sabías que tu sonrisa puede estar salvándole el día a alguien ahora mismo?",
-        "Si pudieras leer la mente de alguien por 10 segundos… ¿a quién elegirías?"
+        "Si pudieras leer la mente de alguien por 10 segundos… ¿a quién elegirías?",
+        "¿Qué harías si nadie te juzgara jamás?",
+        "¿Alguna vez alguien cambió tu vida con una sola frase?",
+        "¿Y si lo que más miedo te da… es justo lo que más necesitas experimentar?"
       ],
       color: "bg-purple-600 hover:bg-purple-700"
     },
@@ -34,7 +40,10 @@ const EmocionRevelada = () => {
       questions: [
         "¿Cuántas veces más vas a subestimarte antes de darte cuenta de lo increíble que eres?",
         "¿Y si el momento en que ibas a rendirte fuera justo antes de lograrlo?",
-        "¿Estás viviendo o solo estás sobreviviendo?"
+        "¿Estás viviendo o solo estás sobreviviendo?",
+        "¿Qué versión de ti estás evitando ser por miedo al qué dirán?",
+        "¿Cuánto tiempo más vas a esperar para convertirte en tu mejor historia?",
+        "¿Cuántas veces más vas a caerte antes de entender que ya aprendiste a levantarte?"
       ],
       color: "bg-red-600 hover:bg-red-700"
     },
@@ -43,7 +52,10 @@ const EmocionRevelada = () => {
       questions: [
         "¿Qué excusa ridícula usaste para no salir de casa la última vez?",
         "¿Alguna vez fingiste estar ocupado solo para no contestarle a alguien? ¿Quién fue? 👀",
-        "¿Cuál ha sido tu peor 'momento tierra trágame'? No vale decir 'todos'"
+        "¿Cuál ha sido tu peor 'momento tierra trágame'? No vale decir 'todos'",
+        "¿Te ha pasado que saludas a alguien que no era para ti y luego finges que estabas estirando el cuello? 🫣",
+        "¿Qué es lo más raro que te ha pasado en una cita?",
+        "¿Cuál es la mentira más tonta que te creyeron y aún no lo superas?"
       ],
       color: "bg-green-600 hover:bg-green-700"
     },
@@ -54,11 +66,15 @@ const EmocionRevelada = () => {
         "¿Tú también tienes ese lado travieso que solo sale cuando nadie está mirando? 😉",
         "¿Cuál es ese secreto tuyo que solo se revela con caricias? 😈",
         "Si tus besos tuvieran un sabor… ¿a qué sabrían? Y no digas 'chicle' 😋",
-        "¿En qué parte de tu cuerpo te gusta más que te besen… y por qué justo ahí? 😮‍💨"
+        "¿En qué parte de tu cuerpo te gusta más que te besen… y por qué justo ahí? 😮‍💨",
+        "¿Cuál es tu mayor fantasía que aún no has contado por miedo a que te digan que estás muy loco/a? 😏",
+        "¿Prefieres que te hablen sucio al oído o que te lo demuestren sin palabras? 😳",
+        "¿Te ha pasado que alguien solo con la mirada… ya te hizo imaginar todo un pecado? 😇🔥"
       ],
       color: "bg-pink-600 hover:bg-pink-700"
     }
   ];
+  
 
   const handleSubmitAnswer = async (e) => {
     e.preventDefault();
